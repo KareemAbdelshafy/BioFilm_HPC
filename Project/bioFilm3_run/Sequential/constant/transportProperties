@@ -1,0 +1,33 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     3.2                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+Gamma_1         Gamma_1 [ 0 0 0 0 0 0 0 ] 33.467;
+Gamma_2         Gamma_2 [ 0 0 0 0 0 0 0 ] 1.255e6;
+chi             chi [ 0 0 0 0 0 0 0 ] 0.6;
+N               N [ 0 0 0 0 0 0 0 ] 1000;
+D_s             D_s [ 0 0 0 0 0 0 0 ] 2.3;
+A               A [ 0 0 0 0 0 0 0 ] 100;
+mu              mu [ 0 0 0 0 0 0 0 ] 0.14;
+K_1             K_1 [ 0 0 0 0 0 0 0 ] 0.15;
+K_c             K_c [ 0 0 0 0 0 0 0 ] 0.15;
+deltaphin       deltaphin [ 0 0 0 0 0 0 0 ] 1e-10;
+Lambda          Lambda [ 0 0 0 0 0 0 0 ] 1e-10;
+dim1            dim1 [ 0 1 0 0 0 0 0 ] 1;
+dim2            dim2 [ 0 2 0 0 0 0 0 ] 1;
+dim3            dim3 [ 0 0 1 0 0 0 0 ] 1;
+
+// ************************************************************************* //
